@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+</head>
+
+<body>
+    <script>
+        //substr()     : Kendisine vericek olan parametreler ile tanımlanmış değişken içeriği aralığında bulunan değerleri kopyalarak yeni bir içerik oluşturu. Ve oluşturduğu içeriği geriye döndürür.
+        //substr(başlangıç,kaç karakter tutacağı)
+
+        var yazı = "Javascript dünya üzerinde kullanılan en yaygın script dilidir.";
+        document.write(yazı + "<br />");
+
+        var sonuc = yazı.substr();
+        document.write(sonuc + "<br />");
+
+        var sonuc1 = yazı.substr(11);
+        document.write(sonuc1 + "<br />");
+
+        var sonuc2 = yazı.substr(11, 20);
+        document.write(sonuc2 + "<br />");
+
+        var sonuc3 = yazı.substr(11, 5); // (11.satırdan başla, 5karakter tut)
+        document.write(sonuc3);
+
+        var sonuc4 = yazı.substr(-15); // sondan başla ve kopyala
+        document.write(sonuc4);
+
+        var sonuc5 = yazı.substr(-15, 6);
+        document.write(sonuc5); // sondan başla ve 6 karakter tut
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

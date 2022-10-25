@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+</head>
+
+<body>
+    <script>
+        //concat() :  Üzerinde çalışılan değişkene parametrik olarak verilen değişken veya değişkenlere dahil edilerek yeni bir içerik oluşturur.
+        //Oluşturduğu değeri geriye döndürür.
+
+        var bir = "Selim";
+        var iki = "Çınar";
+
+        document.write(bir + "<br />");
+        document.write(iki + "<br />");
+
+        var sonuc = bir.concat(iki); // iki değişkeni birleştirdi
+        document.write(sonuc + "<br />");
+
+
+        // Ornek 2 
+        var uc = "Javascript";
+        var dort = "Eğitim";
+        var bes = "Seti";
+
+        document.write(bir + "<br />");
+        document.write(iki + "<br />");
+        document.write(uc + "<br />");
+        document.write(dort + "<br />");
+        document.write(bes + "<br />");
+
+        var sonuc2 = bir.concat(iki, uc, dort, bes); //İçerisindeki tüm değişkenleri birleştirdi
+        document.write(sonuc2);
+
+
+        var degisken = "Fenerbahçe";
+        var degisken2 = "1907";
+        var degisken3 = "Degisken3";
+        var sonuc3 = degisken.concat(degisken2, degisken3); // içerisindeki iki değişkeni birleştirdi
+        document.write(sonuc3);
+
+
+
+    </script>
+
+</body>
+
+</html>

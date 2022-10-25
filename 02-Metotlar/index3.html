@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+</head>
+
+<body>
+    <script>
+        // trim() : Değişken içeriğini varsa başındaki ve sonundaki tüm boşlukları temizleyerek değeri geriye döndürür.
+
+        var ornek = "                Javascript            ";
+        var icerik = "Egitim Seti";
+        var sonuc = ornek + "" + icerik;
+        document.write(sonuc + "<br />");
+
+        // trimli hali   
+        var islem = ornek.trim();
+        var uyarı1 = islem + icerik;
+        document.write(islem + icerik + "<br />");
+        alert(uyarı1);
+
+        var MESAJ = "  Fenerbahçe   " + "    1907";
+        islem2 = MESAJ.trim();
+        document.write(islem2);
+        uyarı2 = islem2 + MESAJ.trim();
+        alert(uyarı2);
+
+
+
+
+    </script>
+
+</body>
+
+</html>

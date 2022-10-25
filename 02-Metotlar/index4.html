@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+</head>
+
+<body>
+    <script>
+        //slice() :  Değişken içeriği içerisindeki değerleri kopyalayarak yeni bir içerik oluşturur.
+        // slice(başlangıç, bitiş)
+        var icerik = "Selim Çınar Javascript eğitim seti";
+
+        document.write(icerik);
+        var sonuc = icerik.slice();
+        document.write(sonuc);
+
+        var sonuc2 = icerik.slice(16); // 16. indisden  sonrakileri kopyala 
+        document.write(sonuc2)
+
+        var sonuc3 = icerik.slice(15, 25);
+        //15.indisden başla 25.indise  gelene kadarkileri kopyala
+        document.write(sonuc3);
+
+        var sonuc4 = icerik.slice(12, 6);
+        // slice(12,6) olarak algılar substringden farkı bu
+
+    </script>
+
+</body>
+
+</html>

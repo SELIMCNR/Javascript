@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+</head>
+
+<body>
+    <script>
+        //Eval metodu  eval() : kendisine parametre olarak verilen değerleri javascript koduna dönüştürerek komut gibi çalıştırır ve oluşan değeri geriye döndürür.
+
+        var degerBir = 40;
+        var degerİki = 30;
+
+        var sonucBir = eval("degerBir + degerİki") + "<br/>";
+        document.write(sonucBir);
+
+        // ornek2
+        var sonucİki = eval(" 10 * 40 ") + "<br />";
+        document.write(sonucİki);
+
+        //ornek3 
+        var sonucuc = eval("(15*4) / (1.5*2.5) ")
+        document.write(sonucuc);
+
+        function deneme() {
+            document.write("Merhaba");
+        }
+        var komut = eval("deneme()");
+        document.write(komut);
+
+
+
+    </script>
+
+</body>
+
+</html>
